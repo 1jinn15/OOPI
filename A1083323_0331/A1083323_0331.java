@@ -8,6 +8,8 @@ public class A1083323_0331{
         animal animal3 = new animal("安那", 1.7, 48, 120);
         animal animal4 = new animal("愛沙", 1.7, 50, 120);
 
+        animal1.showinfo();
+
         animal1.show();
         System.out.println("輸入"+animal1.name+"的時間:");
         int x = sc.nextInt();
