@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class A1083323_0324_1{
 	public static void main(String[] args){
-		Scanner sc = new Scanner(System.in);
+	Scanner sc = new Scanner(System.in);
         animal animal1 = new animal("雪寶", 1.1, 52, 100);
         animal animal2 = new animal("驢子", 1.5, 99, 200);
         animal animal3 = new animal("安那", 1.7, 48, 120);
@@ -11,9 +11,9 @@ public class A1083323_0324_1{
         animal1.show();
         System.out.println("輸入"+animal1.name+"的時間:");
         int x = sc.nextInt();
-        System.out.println("輸入"+animal1.name+"的加速度:");
+        System.out.println("輸入"+animal1.name+"的加速度(不須加速度則輸入0):");
         double y = sc.nextDouble();
-	if((x%1)==0&&(y%1)==0){
+	if(y!=0){
 		System.out.println("奔跑距離: "+animal1.distance(x,y));
 	}else{
 		System.out.println("奔跑距離: "+animal1.distance(x));
@@ -22,9 +22,9 @@ public class A1083323_0324_1{
         animal2.show();
 	System.out.println("輸入"+animal2.name+"的時間:");
         x = sc.nextInt();
-        System.out.println("輸入"+animal2.name+"的加速度:");
+        System.out.println("輸入"+animal2.name+"的加速度(不須加速度則輸入0):");
         y = sc.nextDouble();
-	if((x%1)==0&&(y%1)==0){
+	if(y!=0){
 		System.out.println("奔跑距離: "+animal2.distance(x,y));
 	}else{
 		System.out.println("奔跑距離: "+animal2.distance(x));
@@ -33,9 +33,9 @@ public class A1083323_0324_1{
         animal3.show();
 	System.out.println("輸入"+animal3.name+"的時間:");
         x = sc.nextInt();
-        System.out.println("輸入"+animal3.name+"的加速度:");
+        System.out.println("輸入"+animal3.name+"的加速度(不須加速度則輸入0):");
         y = sc.nextDouble();
-	if((x%1)==0&&(y%1)==0){
+	if(y!=0){
 		System.out.println("奔跑距離: "+animal3.distance(x,y));
 	}else{
 		System.out.println("奔跑距離: "+animal3.distance(x));
@@ -44,9 +44,9 @@ public class A1083323_0324_1{
         animal4.show();
 	System.out.println("輸入"+animal4.name+"的時間:");
         x = sc.nextInt();
-        System.out.println("輸入"+animal4.name+"的加速度:");
+        System.out.println("輸入"+animal4.name+"的加速度(不須加速度則輸入0):");
         y = sc.nextDouble();
-	if((x%1)==0&&(y%1)==0){
+	if(y!=0){
 		System.out.println("奔跑距離: "+animal4.distance(x,y));
 	}else{
 		System.out.println("奔跑距離: "+animal4.distance(x));
