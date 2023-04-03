@@ -18,7 +18,7 @@ public class A1083323_0324_1{
 	}else{
 		System.out.println("奔跑距離: "+animal1.distance(x));
 	}
-
+    System.out.println();
         animal2.show();
 	System.out.println("輸入"+animal2.name+"的時間:");
         x = sc.nextInt();
@@ -29,7 +29,7 @@ public class A1083323_0324_1{
 	}else{
 		System.out.println("奔跑距離: "+animal2.distance(x));
 	}
-
+    System.out.println();
         animal3.show();
 	System.out.println("輸入"+animal3.name+"的時間:");
         x = sc.nextInt();
@@ -40,7 +40,7 @@ public class A1083323_0324_1{
 	}else{
 		System.out.println("奔跑距離: "+animal3.distance(x));
 	}
-
+    System.out.println();
         animal4.show();
 	System.out.println("輸入"+animal4.name+"的時間:");
         x = sc.nextInt();
